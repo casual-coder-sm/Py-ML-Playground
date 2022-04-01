@@ -36,7 +36,7 @@ docker cp <docker-container-id>:/home/sm/practice-ML-lib-tools/ practice-ML-lib-
 2. Manual backup the files
 
 Option 2:
-1. Create Your GitHub repo and fork the intial docker, jupyeter setup.
+1. Create Your GitHub repo and fork the intial docker, jupyter setup.
 2. Modify Docker build script to setup Git within continer so that manage changes within container!
 
 
