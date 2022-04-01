@@ -16,6 +16,6 @@ ENTRYPOINT ["/usr/bin/tini", "--"]
 
 RUN mkdir home/sm
 WORKDIR /home/sm
-COPY . .
+COPY ./ .
 
 CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
