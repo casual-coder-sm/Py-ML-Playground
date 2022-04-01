@@ -27,6 +27,7 @@ Enjoy the Python ML Playground :smiley:
 
 ## Maintenance  :
 - Files added or modified in the container may get lost once the container destroyed!
+
 Option 1:
 1. Pull the files to local folder
 ```
@@ -35,6 +36,7 @@ docker cp <docker-container-id>:/home/sm/practice-ML-lib-tools/ practice-ML-lib-
 2. Manual backup the files
 
 Option 2:
-Alternatively one can setup Git within continer so that manage changes within container!
+1. Create Your GitHub repo and fork the intial docker, jupyeter setup.
+2. Modify Docker build script to setup Git within continer so that manage changes within container!
 
 
