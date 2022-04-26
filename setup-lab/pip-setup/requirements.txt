@@ -9,4 +9,5 @@ seaborn
 scikit-learn
 keras
 jupyter
+jupytext
 ###### Requirements with Version Specifiers ######
